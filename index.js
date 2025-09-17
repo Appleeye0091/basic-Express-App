@@ -7,7 +7,7 @@ const app= express();
 app.get('/' , (req, res) => {
     res.json({
         "type": "greeting",
-        "value": "congrats user!"
+        "value": "congrats sourav!"
     })
 })
 
